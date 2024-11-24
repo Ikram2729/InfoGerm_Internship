@@ -1,0 +1,103 @@
+/* General Reset */
+body, h1, h2, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f9;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #2a9d8f;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #264653;
+}
+
+/* Main Section */
+main .calculator {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+main label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #264653;
+}
+
+main input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+main button {
+    padding: 10px 15px;
+    margin: 15px 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#calculate-btn {
+    background: #2a9d8f;
+    color: #fff;
+}
+
+#reset-btn {
+    background: #e63946;
+    color: #fff;
+}
+
+main #result {
+    margin-top: 20px;
+    display: none;
+}
+
+main #result h2 {
+    font-size: 1.5em;
+    color: #2a9d8f;
+}
+
+main #result p {
+    font-size: 1.2em;
+    color: #264653;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #264653;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main .calculator {
+        width: 90%;
+    }
+}

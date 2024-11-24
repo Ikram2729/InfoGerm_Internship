@@ -1,0 +1,104 @@
+/* General Reset */
+body, ul, li, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f3f3;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #0078d7;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+/* Main Section */
+main .todo-app {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.task-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.task-input button {
+    padding: 10px 15px;
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#task-list {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task-item.completed .task-name {
+    text-decoration: line-through;
+    color: #777;
+}
+
+.task-name {
+    flex: 1;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.task-item button {
+    margin-left: 10px;
+    border: none;
+    background: #e63946;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task-item button.edit-btn {
+    background: #f4a261;
+}
